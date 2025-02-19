@@ -4,6 +4,9 @@ for folks to reference when they are getting started with NestJS. The goal is to
 outline a few essential concepts/patterns/features and how to implement them in
 the context of a NestJS application.
 
+For more information on specific features and areas of interests, please refer
+to the [notes in the docs/ directory](./docs/).
+
 ## Setup Steps
 Below are the steps followed to get this project to the point of a running
 server with a route that returns "Hello World!". All steps are outlined in the
