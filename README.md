@@ -4,43 +4,11 @@ for folks to reference when they are getting started with NestJS. The goal is to
 outline a few essential concepts/patterns/features and how to implement them in
 the context of a NestJS application.
 
-For more information on specific features and areas of interests, please refer
-to the [notes in the docs/ directory](./docs/).
+For more information on specific features and areas of interest, please refer
+to the following notes:
 
-## Setup Steps
-Below are the steps followed to get this project to the point of a running
-server with a route that returns "Hello World!". All steps are outlined in the
-[NestJS docs](https://docs.nestjs.com/first-steps…).
-
-> [!NOTE]
-> This project uses `pnpm` as the package manager to explore an alternative to
-> `npm` and `yarn`.
-
-1. Installed latest version of Node.js via asdf
-
-    ```sh
-    asdf install nodejs 22.14.0
-    ```
-
-2. Installed pnpm
-
-    ```sh
-    npm i -g pnpm
-    ```
-
-3. Installed Nest CLI
-
-    ```sh
-    npm i -g @nestjs/cli
-    ```
-
-4. Ran `nest new` command to generate new application
-
-    ```sh
-    nest new --strict nestjs-example
-    ```
-
-    - Using `--strict` flag to use TypeScript’s [stricter](https://www.typescriptlang.org/tsconfig#strict) feature set
+- [Project Setup](docs/Setup.md)
+- [Swagger Docs](docs/Swagger.md)
 
 ---
 
