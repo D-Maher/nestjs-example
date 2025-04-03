@@ -1,7 +1,6 @@
 ## Project Setup
 Below are the steps that were followed to get this project to the point of a running
-server with a route that returns "Hello World!". You do not need to run `nest
-new` to get the application running; that's already been done to get us here. 🙂
+server with a route that returns "Hello World!".
 
 NestJS-specific steps are outlined in the
 [NestJS docs](https://docs.nestjs.com/first-steps…).
@@ -10,25 +9,29 @@ NestJS-specific steps are outlined in the
 > This project uses `pnpm` as the package manager to explore an alternative to
 > `npm` and `yarn`.
 
-1. Installed latest version of Node.js via asdf
+1. Install Node.js and `pnpm` via asdf (versions specified in .tool-versions)
+
+   ```sh
+   asdf install
+   ```
+
+2. If this is your first time using `pnpm` installed via asdf, you may need to
+   run the following command to set up your `pnpm` environment
 
     ```sh
-    asdf install nodejs 22.14.0
+    pnpm setup
     ```
 
-2. Installed pnpm
+3. Install Nest CLI globally
 
     ```sh
-    npm i -g pnpm
+    pnpm add -g @nestjs/cli
     ```
 
-3. Installed Nest CLI
-
-    ```sh
-    npm i -g @nestjs/cli
-    ```
-
-4. Ran `nest new` command to generate new application
+4. Run `nest new` command to generate new application
+    > [!NOTE]
+    > You do not need to run this to get the application running; that's
+    > already been done to get us here. 🙂
 
     ```sh
     nest new --strict nestjs-example
